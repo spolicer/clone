@@ -1,0 +1,126 @@
+.clone-sidebar {
+  position:absolute;
+  overflow: hidden;
+  margin-left: 10px;
+width: 90px;
+height: 300px;
+background: linear-gradient(180deg, rgba(var(--accent)) 0%, rgba(var(--main)) 100%);;
+border-right: 2px solid #ccc;
+border-bottom: 2px solid #ccc;
+border-radius: 0px 0px 10px 10px;
+
+}
+
+.clone-image
+{position: absolute;
+left: 25px;
+top: 25px;
+height: 90px;
+  width: 90px;
+  background: #000;
+  border: solid 2px #f7f7f7;
+  border-radius: 90px;
+  
+}
+
+
+
+.clone-container {
+  position: relative;
+margin: 50px auto;
+padding: 0px 0px 0px 0px;
+width: 480px;
+min-height: 350px;
+background: #f7f7f7;
+border-radius:30px;
+border-right: solid 2px #e5e5e5;
+border-bottom: solid 2px #e5e5e5;
+}
+
+.clone-body{
+  width: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  margin-left: 90px;
+font-weight: 500;
+font-size: 15px;
+color: #666666;
+line-height: 25px;
+text-align: justify;
+text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
+  
+}
+
+.clone-body b
+{color: rgba(var(--main), 0.8)}
+
+.clone-body i
+{
+   font-weight: bold;
+    position: relative;
+    text-decoration: none;
+}
+
+.clone-body i:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(130deg, rgba(var(--main), 0.5) 41.07%, rgba(var(--accent), 0.5) 76.05%);
+}
+
+.clone-date {
+  font-size: 25px;
+}
+
+.clone-body hr{
+ background: #dadada;
+    border: 0px;
+    display: block;
+    height: 1px;
+    margin: 15px 5px 25px;  
+}
+
+
+.clone-notes
+
+{font-family: 'Montserrat', sans-serif;
+font-size: 12px;}
+
+.clone-notes a
+{color: rgba(var(--accent));
+  text-decoration: none;
+font-weight: 500px;
+}
+
+.clone-notes a::before
+{content: '#';
+color: rgba(var(--main));
+}
+
+.clone-notes a:hover {
+color: #7A7A7A;
+transition: 0.5s;
+}
+
+.clone-icon {
+  margin-top: 20px;
+  margin-left: 17px;
+  font-size: 55px;
+  color: #F7F7F7;
+  text-shadow: 4px 2px 1px rgba(var(--accent), 0.5);
+}
+
+.clone-body h1
+
+{font-family: 'Montserrat', sans-serif;
+text-align: center;
+color: var(--accent);
+text-shadow: 2px 1px 1px #ccc;
+font-weight: 500px;
+}
