@@ -20,7 +20,9 @@ height: 90px;
   background: #000;
   border: solid 2px #f7f7f7;
   border-radius: 90px;
-  
+  filter: grayscale(65%) sepia(9%) saturate(104%) contrast(108%);
+-webkit-filter: grayscale(65%) sepia(9%) saturate(104%) contrast(108%);
+-moz-filter: grayscale(65%) sepia(9%) saturate(104%) contrast(108%);
 }
 
 
